@@ -407,6 +407,13 @@ fi;
 
 KERNEL_STRING="$(file_getprop anykernel.sh kernel.string)";
 ui_print "$KERNEL_STRING";
+ui_print "    _..:::.._";
+ui_print "  .:::::/|::::.";
+ui_print " ::::::/ V|:::::";
+ui_print "::::::/'  |::::::";
+ui_print "::::<_,   (::::::";
+ui_print " :::::|    \::::";
+ui_print "  '::/      \:'";
 if [ -f version ]; then
   ui_print " ";
   ui_printfile version;
