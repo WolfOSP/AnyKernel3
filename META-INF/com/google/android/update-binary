@@ -444,4 +444,10 @@ if [ "$(file_getprop anykernel.sh do.cleanup)" == 1 ]; then
   cleanup;
 fi;
 
+ui_print "Cleaning Caches";
+rm -rf /cache;
+mkdir /cache;
+rm -rf /data/dalvik-cache;
+rm -rf /data/system/dropbox
+
 ui_print " " " " "Done!";
